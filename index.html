@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFR App - Coming Soon</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            text-align: center;
+            padding: 20px;
+        }
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        h1 {
+            color: #fff;
+            margin-bottom: 10px;
+            margin-top: 0;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        p {
+            font-size: 1.2rem;
+            color: #f0f0f0;
+            margin-top: 0;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+        a {
+            color: #fff;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: none;
+            opacity: 0.9;
+        }
+        .logo {
+            max-width: 150px;
+            margin-bottom: 15px;
+            border-radius: 20px;
+        }
+        .social-container {
+            margin-top: 30px;
+        }
+        .social-text {
+            color: #f0f0f0;
+            margin-bottom: 15px;
+            font-size: 1rem;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+        .social-icons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .social-icon {
+            width: 24px;
+            height: 24px;
+            object-fit: contain;
+            /* Make icons light grey: turn black/color to black first, then invert to light grey */
+            filter: brightness(0) invert(0.8);
+            transition: opacity 0.2s;
+        }
+        .social-icon:hover {
+            opacity: 0.8;
+        }
+        .social-icon[alt="Discord"] {
+            width: 32px;
+            height: 32px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://i.ibb.co/twnJBcC0/Choice-For-Reels-App-logo-2.png" alt="CFR App Logo" class="logo">
+    <h1>CFR app<br>Coming Soon!</h1>
+    <p>While you wait, visit <a href="https://choice.jasonforreels.com/">ChoiceForReels!</a></p>
+
+    <div class="social-container">
+        <div class="social-text">Follow for updates</div>
+        <div class="social-icons">
+            <a href="#" aria-label="X (Twitter)"><img src="https://about.x.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png" alt="X" class="social-icon"></a>
+            <a href="#" aria-label="Instagram"><img src="https://i.ibb.co/W45m5nvn/instagram.png" alt="Instagram" class="social-icon"></a>
+            <a href="#" aria-label="Discord"><img src="https://i.ibb.co/0yDssSqc/pngimg-com-discord-PNG3.png" alt="Discord" class="social-icon"></a>
+        </div>
+    </div>
+</body>
+</html>
